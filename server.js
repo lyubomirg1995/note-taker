@@ -38,6 +38,7 @@ app.post('/api/notes', (req, res) => {
     });
 });
 
+//Delete notes
 app.delete('/api/notes/:id', (req, res) => {
     const noteId = req.params.id;
 
