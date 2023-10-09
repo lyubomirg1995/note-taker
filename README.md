@@ -4,26 +4,14 @@ This note-taking application combines front-end and Express.js backend technolog
 
 ## Installation
 
-1. Install Express.JS: `npm i express`
-2. Install uuid package: `npm i uuid`
-3. Install Heroku CLI for MacOS: `brew tap heroku/brew && brew install heroku`
-4. Login to Heroku: `heroku login`
-5. Initialize a Git Repository (if you haven't already) with
-  git init
-  git add .
-  git commit -m "Initial commit"
-`
-6. Set up start script:
-    "scripts": {
-        "start": "node server.js"
-    }
-
-7. Commit any changes: 
-    `git add .
-     git commit -m "Heroku development
-    `
-8. Push to Heroku:`git push heroku main`
-9. Open your App:`heroku open`
+1. Clone repository
+2. Install Express.JS: `npm i express`
+3. Install uuid package: `npm i uuid`
+4. Install Heroku CLI for MacOS: `brew tap heroku/brew && brew install heroku`
+5. Login to Heroku: `heroku login`
+6. Commit any changes
+7. Push to Heroku:`git push heroku main`
+8. Open your App:`heroku open`
 
 ## Credits
 
